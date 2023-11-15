@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Выбор плана подписки</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <style>
+        .subscription-plan {
+            transition: transform 1s;
+            border-bottom: 2px solid #ccc;
+        }
+
+        .subscription-plan:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card subscription-plan">
+                <div class="card-body">
+                    <h5 class="card-title">Базовый план</h5>
+                    <hr>
+                    <p class="card-text">базовый(ничего)</p>
+                    <p class="card-text">Цена: $9.99 в месяц</p>
+                    <a href="#" class="btn btn-primary">Выбрать</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card subscription-plan">
+                <div class="card-body">
+                    <h5 class="card-title">Стандартный план</h5>
+                    <hr>
+                    <p class="card-text">стандартный план(уже что-то)</p>
+                    <p class="card-text">Цена: $19.99 в месяц</p>
+                    <a href="#" class="btn btn-success">Выбрать</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card subscription-plan">
+                <div class="card-body">
+                    <h5 class="card-title">Премиум план</h5>
+                    <hr>
+                    <p class="card-text">премиум план(топчик)</p>
+                    <p class="card-text">Цена: $29.99 в месяц</p>
+                    <a href="#" class="btn btn-warning">Выбрать</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
